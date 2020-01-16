@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/trisivaw/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp resume.html $DEPLOYPATH
-    - /bin/cp /assets/ $DEPLOYPATH
+    - /bin/cp -r ./assets/ $DEPLOYPATH
