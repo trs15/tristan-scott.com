@@ -1,0 +1,20 @@
+body {
+    background: #FFFFFF;
+background: -moz-radial-gradient(center, #FFFFFF 0%, #B8C8D9 95%, #7EA3D0 100%);
+background: -webkit-radial-gradient(center, #FFFFFF 0%, #B8C8D9 95%, #7EA3D0 100%);
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #B8C8D9 95%, #7EA3D0 100%);
+}
+
+.construction {
+    height: 77vh;
+    text-align: center;
+}
+
+.construction img {
+    height: 50%;
+}
+
+.construction h1 {
+    color: #7ea3d0;
+    font-size: 150%;
+}
