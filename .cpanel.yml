@@ -3,5 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/trisivaw/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp resume.html $DEPLOYPATH
+    - /bin/cp experience.html $DEPLOYPATH
+    - /bin/cp projects.html $DEPLOYPATH
+    - /bin/cp skills.html $DEPLOYPATH
     - /bin/cp -r ./assets/ $DEPLOYPATH
