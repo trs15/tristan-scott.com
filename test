@@ -1,0 +1,4 @@
+curl -X POST -u "apikey:{KQCqsDMCAtDQZiFpsFBHTzfYdVuatlzcb04SD0VeYcvE}" \
+--header "Content-Type: audio/flac" \
+--data-binary @{path_to_file}audio-file.flac \
+"{https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/32471458-5ab6-4661-8e15-0baa605212c0}/v1/recognize"
