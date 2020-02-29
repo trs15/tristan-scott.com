@@ -434,6 +434,10 @@ li {
         text-align: center;
         font-size: 20px;
     }
+    
+    .home-button{
+        display: none;
+    }
 }
 
 
@@ -562,6 +566,21 @@ li {
     .dropdown-text{
         margin: 10px 0;
     }
+
+    .home-button{
+        opacity: 75%;
+        background-color: #ffbc45;  
+        color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        position: fixed;
+        bottom: 10px;
+        left: calc(100% - 60px);
+        text-align: center;
+        font-size: 25px;
+        line-height: 50px;
+    }
 }
 
 .index {
@@ -639,17 +658,3 @@ iframe {
     margin: 5px 0;
 }
 
-.home-button{
-    opacity: 75%;
-    background-color: #ffbc45;  
-    color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    position: fixed;
-    bottom: 10px;
-    left: calc(100% - 60px);
-    text-align: center;
-    font-size: 25px;
-    line-height: 50px;
-}
