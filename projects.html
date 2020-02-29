@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/projects.css">
     <link rel="favorite icon" href="assets/images/favicon.ico">
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/22ec8c2a0a.js" crossorigin="anonymous"></script>
     <title>Projects</title>
 </head>
 <body>
+    <div class="md-separate primary-dark"></div>
     <div class="menu-bar">
         <a href="index.html"><div class="menu-icon"></div></a>
         <div class="menu-item">
@@ -40,19 +40,50 @@
             </div>
         </div>
     </div>
-    <div class="index">
-        <h1>Projects</h1>
-        <p>Click on a project name below to go to that projects page.</p>
-        <ul>
-            <li><a>Invasive Species Detector</a></li>
-            <li><a>Watson Pizza</a></li>
-            <li><a>TIA Survey REST API</a></li>
-            <li><a>My Apartment Website</a></li>
-            <li><a>Personal PC Build</a></li>
-            <li><a>Home Network Build</a></li>
-        </ul>
+    <div class="index" style="padding-bottom: 0;">
+        <h2 class="center">Projects</h2>
+        <button type="button" class="collapsible">Invasive Species Detector <i class="fas fa-sort-down" style="font-size:25px;"></i></button>
+        <div class="content">
+          <p class="dropdown-text">Invasive Species Detector was my submission for the 2020 AuburnHacks Hackathon. In less
+              than 24 hours I programmed a web app that identifies invasive plants, animals, and insects in photographs. 
+              This project uses Python Flask as the web framework and IBM's Watson Visual Recognition for image object identification. 
+              I was able to train the AI on three invasive species for the demo (Burmese Pythons, Stink Bugs, and Purple Loosestrife). Give it a try at 
+              <a href="https://invasivespeciesde.tech">invasivespeciesde.tech</a>.
+          </p>
+          <img class="project_image" alt="Invasive Species Detector Homepage" src="assets/images/isd.png">
+          <img class="project_image" alt="Invasive Species Detected" src="assets/images/burmese.png">
+        </div>
+        <button type="button" class="collapsible">Watson Pizza <i class="fas fa-sort-down" style="font-size:25px;"></i></button>
+        <div class="content">
+          <p class="dropdown-text">Watson Pizza is an ongoing project being co-developed with fellow Software Engineering students as our senior design project. 
+              This project has us developing a virtual agent that can handle Domino's Pizza order sequences as if it was an employee. To accomplish 
+              this project we have combined several web technologies including IBM's Watson assistant, IBM text to speech, IBM speech to text, Cloud Foundry, 
+            CloudAnt Databases, and a self-built webhook that implements lexical analysis to process and build orders. 
+          </p>
+        </div>
+        <button type="button" class="collapsible">TIA Survey REST API <i class="fas fa-sort-down" style="font-size:25px;"></i></button>
+        <div class="content">
+          <p class="dropdown-text">The TIA Survey REST API was a large Co-op project I was tasked with completing during my Cooperative work term. 
+              I was given full reign of design, development, documentatin, and deployment of this API. I had to learn and utilize
+              RESTful practices and work with a legacy codebase and database. This API allows member companies of the Transportation Intermediaries Association
+              to interface with a pre-exisitng TIA web application in their own applications. 
+          </p>
+          <img class="project_image" alt="TIA Survey User Info" src="assets/images/tia1.png">
+          <img class="project_image" alt="TIA Survey API Logs" src="assets/images/tia2.png">
+          <img class="project_image" alt="TIA Survey Dashboard" src="assets/images/tia3.png">
+        </div>
+        <button type="button" class="collapsible">MyApartment Website <i class="fas fa-sort-down" style="font-size:25px;"></i></button>
+        <div class="content">
+          <p class="dropdown-text">MyApartment Website is a template based website builder developed by Unconfusing Technology. As part of my Cooperative work
+              term I was tasked with maintaining and improving both the front and back ends of this application. MyApartment Website uses 
+              a complex backend to implement an easy to use website builder that pushes template updates to live websites at the click of a button. 
+          </p>
+          <img src="assets/images/mya1.png" alt="MyApartment Website Template" class="project_image">
+        </div>
+        <div class="sm-separate secondary" style="margin-top:50px;"></div>
     </div>
-    <div class="footer">
+    <div class="footer" style="margin-top:250px;">
+        <div class="sm-separate secondary"></div>
         <div class="footer-content">
             <ul class="link-list">
                 <li><a href="https://www.linkedin.com/in/trs15/"><i class="fab fa-linkedin"></i></a></li>
@@ -64,8 +95,12 @@
                     </a>
                 </li>
             </ul> 
-            <p>Website built by: Tristan Scott</p>
         </div>
     </div>
+    <a href="index.html">
+        <div class="home-button">
+            <i class="fas fa-home"></i>
+        </div>
+    </a>
 </body>
 </html>

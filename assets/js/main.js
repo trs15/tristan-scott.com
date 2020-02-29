@@ -51,6 +51,8 @@ window.onload = function(){
       } else {
         content.style.display = "block";
       }
+      sub_list();
     });
-  }
+  } 
+  
 }
