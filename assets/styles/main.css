@@ -133,7 +133,9 @@ li {
     width: 100%;
     height: 80vh;
     background-image: url(../images/wirligigs_cropped.png);
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .menu-bar{
@@ -142,7 +144,6 @@ li {
     height: 80px;
     /* border-bottom: rgba(128, 128, 128, 0.473) 1px solid;*/
     padding: 0 150px 0 150px; 
-    max-width: 1600px;
 }
 
 .menu-icon{
